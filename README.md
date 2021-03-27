@@ -11,6 +11,11 @@ We provide the source code of paper *In Silico Model for miRNA-medicated Regulat
   <figcaption>An illustration of the proposed graph-based learning model on miRNA-mRNA bipartite graph to estimate the protein expression levels.</figcaption>
 </p>
 
+## Required Python packages
+ - Numpy
+ - Pandas
+ - Scipy
+
 ## Data
  - 
 
