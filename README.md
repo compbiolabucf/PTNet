@@ -6,7 +6,9 @@ We provide the source code of paper *In Silico Model for miRNA-medicated Regulat
  - Our model estimates the protein levels by considering the miRNA-mRNA interaction network, the mRNA expression and the miRNA expression.
 
 ## Framework
-![An illustration of the proposed graph-based learning model on miRNA-mRNA bipartite graph to estimate the protein expression levels.](PTNet.png)
+<p align="center">
+  <img src="PTNet.png" width="350" title="hover text">
+</p>
 
 ## Data
  - 
