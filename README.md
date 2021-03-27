@@ -8,7 +8,7 @@ We provide the source code of paper *In Silico Model for miRNA-medicated Regulat
 ## Framework
 <p align="center">
   <img src="PTNet.png" width="350">
-  An illustration of the proposed graph-based learning model on miRNA-mRNA bipartite graph to estimate the protein expression levels.
+  <figcaption>An illustration of the proposed graph-based learning model on miRNA-mRNA bipartite graph to estimate the protein expression levels.</figcaption>
 </p>
 
 ## Data
