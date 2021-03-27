@@ -20,3 +20,5 @@ We provide the source code of paper *In Silico Model for miRNA-medicated Regulat
  - 
 
 ## Code
+ - bipartite_breast.py: run code to generate predicted protein expression from mRNA expression, miRNA expression and their interaction network.
+ - bipartite_ovarian.py: run code to generate predicted protein expression from mRNA expression, miRNA expression and their interaction network.
