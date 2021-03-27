@@ -6,7 +6,7 @@ We provide the source code of paper *In Silico Model for miRNA-medicated Regulat
  - Our model estimates the protein levels by considering the miRNA-mRNA interaction network, the mRNA expression and the miRNA expression.
 
 ## Framework
-<img src="PTNet.png" width = 300>
+<img src="PTNet.png" width = 500>
 
 ## Data
  - 
