@@ -16,10 +16,11 @@ We provide the source code of paper *In Silico Model for miRNA-medicated Regulat
  - Pandas
  - Scipy
 
-## Data
- - bipartite_targetscan.xlsx: miRNA-mRNA interaction network (miRNA by mRNA)
- - gencode23.csv: mRNA to gene symbol conversion (annotation)
- - Ovarian cancer: (1) [mRNA.csv]: mRNA expression data (feature by sample), (2) miRNA.csv: miRNA expression data (feature by sample), (3) spectral_count.tsv: ground truth protein expression (feature by sample).
+## Sample data
+ - bipartite_targetscan.csv: miRNA-mRNA interaction network, please note that the interaction network is an mRNA by miRNA matrix in .csv format. Each row represents one mRNA isoform, each column represents one miRNA, value equals to 1 means that there is an interaction between the corresponding mRNA (row index) and miRNA (column index), 0 means no interaction.
+ - Ovarian cancer RNA-Seq data: 
+   * [mRNA.csv]: mRNA expression data of TCGA Ovarian cancer patient samples, please note that the mRNA expression data is a feature by sample matrix in .csv format. Each row represents one mRNA isoform, and each column represents one patient sample. 
+   * miRNA.csv: miRNA expression data of TCGA Ovarian cancer patient samples, please note that the miRNA expression data is a feature by sample matrix in .csv format. Each row represnts one miRNA, and each column represents one patient sample.
 
 ## Code
  - **PTNet.py**: run code to generate predicted protein expression from mRNA expression, miRNA expression and their interaction network.
@@ -27,7 +28,7 @@ We provide the source code of paper *In Silico Model for miRNA-medicated Regulat
 
 ## Run PTNet with TCGA Ovarian cancer patient samples 
 ```sh
-$ python3 PTNet.py mRNA.csv miRNA.csv bipartite_targetscan.xlsx 0.6 
+$ python3 PTNet.py mRNA.csv miRNA.csv bipartite_targetscan.csv 0.6 
 ```
 All input data and output should be in the same folder as the code. **predicted_protein.csv** will be generated as output which contains the protein expressions estimated by PTNet.
 
