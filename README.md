@@ -20,7 +20,7 @@ We provide the source code of paper *In Silico Model for miRNA-medicated Regulat
  - bipartite_targetscan.csv: miRNA-mRNA interaction network, please note that the interaction network is an mRNA by miRNA matrix in .csv format. Each row represents one mRNA isoform, each column represents one miRNA, value equals to 1 means that there is an interaction between the corresponding mRNA (row index) and miRNA (column index), 0 means no interaction.
  - Ovarian cancer RNA-Seq data: 
    * [mRNA.csv]: mRNA expression data of TCGA Ovarian cancer patient samples, please note that the mRNA expression data is a feature by sample matrix in .csv format. Each row represents one mRNA isoform, and each column represents one patient sample. 
-   * miRNA.csv: miRNA expression data of TCGA Ovarian cancer patient samples, please note that the miRNA expression data is a feature by sample matrix in .csv format. Each row represnts one miRNA, and each column represents one patient sample.
+   * miRNA.csv: miRNA expression data of TCGA Ovarian cancer patient samples, please note that the miRNA expression data is a feature by sample matrix in .csv format. Each row represents one miRNA, and each column represents one patient sample.
 
 ## Code
  - **PTNet.py**: run code to generate predicted protein expression from mRNA expression, miRNA expression and their interaction network.
