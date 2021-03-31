@@ -22,8 +22,8 @@ We provide the source code of paper *In Silico Model for miRNA-medicated Regulat
  - Ovarian cancer: (1) [mRNA.csv]: mRNA expression data (feature by sample), (2) miRNA.csv: miRNA expression data (feature by sample), (3) spectral_count.tsv: ground truth protein expression (feature by sample).
 
 ## Code
- - **bipartite_ovarian_transcript.py**: run code to generate predicted protein expression from mRNA expression, miRNA expression and their interaction network.
- - **Command to run the code**: ``` $ python3 code mRNA_expression miRNA_expression ground_truth_spectral_count alpha ```. **alpha** is the coefficient in bipartite network propagation ranging from 0 to 1. Higher value of alpha puts more emphasis on the network, lower value puts more emphasis on the initial mRNA values.
+ - **PTNet.py**: run code to generate predicted protein expression from mRNA expression, miRNA expression and their interaction network.
+ - **Command to run the code**: ``` $ python3 PTNet.py mRNA_expression miRNA_expression miRNA-mRNA_interaction_network alpha ```. **alpha** is the coefficient in bipartite network propagation ranging from 0 to 1. Higher value of alpha puts more emphasis on the network, lower value puts more emphasis on the initial mRNA values.
 
 ## Run PTNet with TCGA Ovarian cancer patient samples 
 ```sh
