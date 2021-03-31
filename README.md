@@ -1,5 +1,5 @@
 # PTNet
-We provide the source code of paper *In Silico Model for miRNA-medicated Regulatory Network in Cancer* for Nucleic Acids Research submission.
+We provide the source code of paper *In Silico Model for miRNA-medicated Regulatory Network in Cancer* for Briefings in Bioinformatics submission.
 
 ## Goal
  - PTNet is a graph-based learning model which simulates the miRNAs (microRNAs) that regulate gene expression post-transcriptionally *in silico*.
@@ -27,7 +27,7 @@ We provide the source code of paper *In Silico Model for miRNA-medicated Regulat
 
 ## Run PTNet with TCGA Ovarian cancer patient samples 
 ```sh
-$ python3 -W ignore bipartite_ovarian_transcript.py mRNA.csv miRNA.csv spectral_count.tsv 0.6 
+$ python3 PTNet.py mRNA.csv miRNA.csv bipartite_targetscan.xlsx 0.6 
 ```
 All input data and output should be in the same folder as the code. **predicted_protein.csv** will be generated as output which contains the protein expressions estimated by PTNet.
 
