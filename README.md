@@ -1,5 +1,5 @@
 # PTNet
-We provide the source code of paper *In Silico Model for miRNA-medicated Regulatory Network in Cancer* for Briefings in Bioinformatics submission.
+We provide the source code of paper *In Silico Model for miRNA-mediated Regulatory Network in Cancer* for Briefings in Bioinformatics submission.
 
 ## Goal
  - PTNet is a graph-based learning model which simulates the miRNAs (microRNAs) that regulate gene expression post-transcriptionally *in silico*.
